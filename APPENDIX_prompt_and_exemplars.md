@@ -2,8 +2,10 @@
 
 This appendix reproduces the exact system prompts, output instruction, and
 patient-record serialization used for the large language model (LLM) experiments,
-verbatim. It is the authoritative prompt reference for `src/llm_responder.py`,
-`src/serialize.py`, and the LLM arm of `src/adhd_fewshot_curve.py`.
+verbatim. The exact prompt strings are also stored machine-readably in
+`src/prompts.json`, which `src/llm_responder.py` loads at run time; this appendix
+and that file are the authoritative prompt reference, together with
+`src/serialize.py` (the patient-record serialization).
 
 **Model.** All LLM results use **Claude Opus 4** (Anthropic; API model
 `claude-opus-4`). `claude-opus-4` is a rolling alias; the exact dated snapshot is

@@ -86,8 +86,9 @@ API response's `model` field.
 ```
 src/responder_loocv.py           shared data loader + preprocessing; LOOCV/5-fold baselines (6 models)
 src/serialize.py                 patient row -> clinical narrative (LLM input)
+src/prompts.json                 exact simple / clinician-guided prompts (loaded by llm_responder.py)
 src/adhd_fewshot_curve.py        N-shot learning curve across all tabular models
-src/llm_responder.py             few-shot LLM predictor (Claude)
+src/llm_responder.py             few-shot LLM predictor (Claude); 0/2/4/8/16/24-shot, 2 prompts, 15 seeds
 src/04_analyze_and_figure.py     main learning-curve figure (Fig 1)
 src/models/                      model-baseline notes (see src/models/README.md)
 src/supplementary/               feature importance (Fig 2 / Table 3), LR top-10,

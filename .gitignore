@@ -1,0 +1,16 @@
+# raw human-subjects data — never commit
+data/*.xls
+data/*.xlsx
+data/*.csv
+handoff/
+
+# generated intermediate results (regenerate via the pipeline);
+# small summary CSV/JSON in results/ ARE committed for reference
+results/*.npz
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.env
+.ipynb_checkpoints/

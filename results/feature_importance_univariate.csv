@@ -1,0 +1,39 @@
+feature,label,instrument,auc,direction,resp_mean,resp_sd,nonresp_mean,nonresp_sd,mwu_p,cliffs_delta,mwu_q
+intrut,Intrusive,ASR,0.758,non-responder,53.9,6.7,57.2,5.4,0.0078,-0.515,0.296
+taskmon_t,Task-monitor,BRIEF-A,0.693,responder,76.2,12.1,68.3,11.6,0.0494,0.386,0.574
+thougt,Thought problems,ASR,0.691,non-responder,54.3,5.3,58.2,6.7,0.0503,-0.383,0.574
+q_les_q_raw,Quality of life,Q-LES-Q,0.67,responder,52.1,6.5,47.6,6.7,0.0842,0.34,0.574
+aware_t,Social awareness,SRS-2,0.662,non-responder,45.7,7.8,48.8,5.4,0.0965,-0.324,0.574
+withdt,Withdrawn,ASR,0.656,non-responder,53.6,6.2,57.7,10.5,0.0996,-0.312,0.574
+gec_t,Global Executive Composite,BRIEF-A,0.653,responder,69.3,10.5,64.4,10.4,0.1205,0.306,0.574
+intert,Internalizing,ASR,0.639,non-responder,56.0,9.2,61.7,11.9,0.1588,-0.278,0.574
+mi_t,Metacognition Index,BRIEF-A,0.633,responder,74.9,10.8,69.7,11.4,0.178,0.265,0.574
+delnqt,Rule-breaking,ASR,0.627,non-responder,56.2,7.4,58.9,6.9,0.1967,-0.253,0.574
+workmem_t,Working memory,BRIEF-A,0.627,responder,78.6,11.5,73.1,12.0,0.1994,0.253,0.574
+shift_t,Shift,BRIEF-A,0.625,responder,61.1,12.2,56.9,9.6,0.2037,0.25,0.574
+adhd_rs_inatt,ADHD-RS inattention,ADHD-RS,0.619,responder,27.6,5.4,24.1,6.3,0.2277,0.238,0.574
+planorg_t,Plan/organize,BRIEF-A,0.611,responder,72.7,11.2,68.3,11.7,0.2608,0.222,0.574
+inhibit_t,Inhibit,BRIEF-A,0.61,responder,63.3,10.5,59.2,12.6,0.2676,0.219,0.574
+attent,Attention problems,ASR,0.608,responder,72.6,9.3,69.3,9.0,0.2737,0.216,0.574
+adhd_rs_total,ADHD-RS total,ADHD-RS,0.605,responder,48.4,15.3,42.9,12.2,0.2889,0.21,0.574
+orgmat_t,Organization of materials,BRIEF-A,0.603,responder,63.7,13.3,58.9,13.2,0.2955,0.207,0.574
+totalt,Total problems,ASR,0.603,non-responder,59.5,8.0,62.9,9.7,0.2946,-0.207,0.574
+age,Age,Demographic,0.602,responder,33.1,6.3,30.2,6.9,0.3031,0.204,0.574
+extert,Externalizing,ASR,0.597,non-responder,53.3,10.4,56.9,8.2,0.3259,-0.194,0.574
+somat,Somatic complaints,ASR,0.596,non-responder,55.3,4.6,58.6,8.6,0.3321,-0.191,0.574
+anxdept,Anxious/depressed,ASR,0.585,non-responder,60.5,7.8,63.5,9.2,0.3918,-0.17,0.647
+bri_t,Behavioral Regulation Index,BRIEF-A,0.576,responder,58.4,10.8,55.3,10.4,0.4472,0.151,0.693
+adhd_rs_hyper,ADHD-RS hyperactivity,ADHD-RS,0.574,responder,20.8,10.3,18.8,7.2,0.4558,0.148,0.693
+cog_t,Social cognition,SRS-2,0.556,responder,50.6,8.8,48.7,6.4,0.5786,0.111,0.846
+initiate_t,Initiate,BRIEF-A,0.548,responder,67.6,10.6,66.7,11.2,0.6344,0.096,0.861
+mwq_total,Mind-wandering,MWQ,0.548,responder,25.2,4.0,24.4,4.6,0.6329,0.096,0.861
+motiv_t,Social motivation,SRS-2,0.539,non-responder,56.1,8.7,57.1,10.3,0.7036,-0.077,0.877
+selfmon_t,Self-monitor,BRIEF-A,0.539,responder,52.7,13.6,50.8,9.9,0.702,0.077,0.877
+comm_t,Social communication,SRS-2,0.537,responder,52.1,8.0,50.1,6.8,0.7155,0.074,0.877
+aggret,Aggressive behavior,ASR,0.529,responder,56.2,6.1,56.3,6.9,0.7735,0.059,0.88
+rrb_t,Restricted/repetitive,SRS-2,0.528,non-responder,51.9,9.8,52.4,8.3,0.787,-0.056,0.88
+gender,Sex (female),Demographic,0.528,non-responder,0.6,0.5,0.6,0.5,0.7529,-0.056,0.88
+emocont_t,Emotional control,BRIEF-A,0.512,responder,52.3,11.5,51.5,11.5,0.9116,0.025,0.975
+desr_total,Emotional dysregulation,DERS,0.511,non-responder,6.0,4.2,6.3,5.0,0.924,-0.022,0.975
+asr_aaa,AAA composite,ASR,0.508,non-responder,189.3,18.9,189.2,18.9,0.9495,-0.015,0.975
+srs_total_t,SRS-2 total,SRS-2,0.505,responder,51.9,7.8,51.5,6.6,0.9747,0.009,0.975

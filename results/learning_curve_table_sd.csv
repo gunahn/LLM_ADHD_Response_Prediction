@@ -1,0 +1,39 @@
+arm,model,shots,auc_mean,auc_sd
+Tabular,TabFM,0,0.5,0.0
+Tabular,TabFM,2,0.52,0.067
+Tabular,TabFM,8,0.523,0.105
+Tabular,TabFM,16,0.567,0.096
+Tabular,TabFM,24,0.672,0.136
+Tabular,TabFM,35 (LOOCV),0.765,0.0
+Tabular,XGBoost,2,0.5,0.0
+Tabular,XGBoost,8,0.506,0.085
+Tabular,XGBoost,16,0.594,0.098
+Tabular,XGBoost,24,0.636,0.151
+Tabular,XGBoost,35 (LOOCV),0.642,0.0
+Tabular,RF,2,0.515,0.102
+Tabular,RF,8,0.576,0.098
+Tabular,RF,16,0.59,0.106
+Tabular,RF,24,0.651,0.157
+Tabular,RF,35 (LOOCV),0.594,0.024
+Tabular,LR,2,0.516,0.104
+Tabular,LR,8,0.58,0.099
+Tabular,LR,16,0.595,0.087
+Tabular,LR,24,0.613,0.129
+Tabular,LR,35 (LOOCV),0.611,0.0
+Tabular,TabNet,2,0.505,0.095
+Tabular,TabNet,8,0.514,0.112
+Tabular,TabNet,16,0.518,0.128
+Tabular,TabNet,24,0.547,0.177
+Tabular,TabNet,35 (LOOCV),0.535,0.105
+LLM,LLM Simple,0,0.665,0.177
+LLM,LLM Simple,2,0.665,0.185
+LLM,LLM Simple,4,0.646,0.167
+LLM,LLM Simple,8,0.685,0.156
+LLM,LLM Simple,16,0.667,0.161
+LLM,LLM Simple,24,0.665,0.201
+LLM,LLM Clinician-guided,0,0.658,0.13
+LLM,LLM Clinician-guided,2,0.658,0.19
+LLM,LLM Clinician-guided,4,0.658,0.166
+LLM,LLM Clinician-guided,8,0.692,0.171
+LLM,LLM Clinician-guided,16,0.648,0.182
+LLM,LLM Clinician-guided,24,0.692,0.199

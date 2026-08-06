@@ -1,0 +1,125 @@
+{
+  "test": "paired Wilcoxon signed-rank, TabFM vs model, per shot (paired by repeat/split)",
+  "results": {
+    "2": {
+      "TabFM_vs_LR": {
+        "mean_auc_diff": 0.0033,
+        "median_auc_diff": 0.0,
+        "tabfm_wins": 47,
+        "n_repeats": 100,
+        "wilcoxon_p": 0.92866
+      },
+      "TabFM_vs_RF": {
+        "mean_auc_diff": 0.0047,
+        "median_auc_diff": -0.0069,
+        "tabfm_wins": 48,
+        "n_repeats": 100,
+        "wilcoxon_p": 0.77205
+      },
+      "TabFM_vs_XGBoost": {
+        "mean_auc_diff": 0.0196,
+        "median_auc_diff": 0.0199,
+        "tabfm_wins": 58,
+        "n_repeats": 100,
+        "wilcoxon_p": 0.00991
+      },
+      "TabFM_vs_TabNet": {
+        "mean_auc_diff": 0.0141,
+        "median_auc_diff": 0.0208,
+        "tabfm_wins": 57,
+        "n_repeats": 100,
+        "wilcoxon_p": 0.1103
+      }
+    },
+    "8": {
+      "TabFM_vs_LR": {
+        "mean_auc_diff": -0.0564,
+        "median_auc_diff": -0.0536,
+        "tabfm_wins": 28,
+        "n_repeats": 100,
+        "wilcoxon_p": 2e-05
+      },
+      "TabFM_vs_RF": {
+        "mean_auc_diff": -0.0525,
+        "median_auc_diff": -0.0587,
+        "tabfm_wins": 31,
+        "n_repeats": 100,
+        "wilcoxon_p": 2e-05
+      },
+      "TabFM_vs_XGBoost": {
+        "mean_auc_diff": 0.0169,
+        "median_auc_diff": 0.014,
+        "tabfm_wins": 53,
+        "n_repeats": 100,
+        "wilcoxon_p": 0.41709
+      },
+      "TabFM_vs_TabNet": {
+        "mean_auc_diff": 0.0089,
+        "median_auc_diff": 0.0,
+        "tabfm_wins": 49,
+        "n_repeats": 100,
+        "wilcoxon_p": 0.40891
+      }
+    },
+    "16": {
+      "TabFM_vs_LR": {
+        "mean_auc_diff": -0.0285,
+        "median_auc_diff": -0.01,
+        "tabfm_wins": 36,
+        "n_repeats": 100,
+        "wilcoxon_p": 0.00615
+      },
+      "TabFM_vs_RF": {
+        "mean_auc_diff": -0.0234,
+        "median_auc_diff": -0.01,
+        "tabfm_wins": 45,
+        "n_repeats": 100,
+        "wilcoxon_p": 0.07824
+      },
+      "TabFM_vs_XGBoost": {
+        "mean_auc_diff": -0.0271,
+        "median_auc_diff": -0.02,
+        "tabfm_wins": 38,
+        "n_repeats": 100,
+        "wilcoxon_p": 0.0345
+      },
+      "TabFM_vs_TabNet": {
+        "mean_auc_diff": 0.0485,
+        "median_auc_diff": 0.065,
+        "tabfm_wins": 65,
+        "n_repeats": 100,
+        "wilcoxon_p": 0.00507
+      }
+    },
+    "24": {
+      "TabFM_vs_LR": {
+        "mean_auc_diff": 0.0597,
+        "median_auc_diff": 0.0556,
+        "tabfm_wins": 71,
+        "n_repeats": 100,
+        "wilcoxon_p": 0.0
+      },
+      "TabFM_vs_RF": {
+        "mean_auc_diff": 0.0218,
+        "median_auc_diff": 0.0278,
+        "tabfm_wins": 54,
+        "n_repeats": 100,
+        "wilcoxon_p": 0.08516
+      },
+      "TabFM_vs_XGBoost": {
+        "mean_auc_diff": 0.0369,
+        "median_auc_diff": 0.0278,
+        "tabfm_wins": 59,
+        "n_repeats": 100,
+        "wilcoxon_p": 0.0039
+      },
+      "TabFM_vs_TabNet": {
+        "mean_auc_diff": 0.1251,
+        "median_auc_diff": 0.1389,
+        "tabfm_wins": 71,
+        "n_repeats": 100,
+        "wilcoxon_p": 0.0
+      }
+    }
+  }
+}

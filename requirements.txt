@@ -1,0 +1,14 @@
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+scipy>=1.10
+statsmodels>=0.14
+matplotlib>=3.7
+xlrd>=2.0
+openpyxl>=3.1
+xgboost>=2.0
+anthropic>=0.40
+# optional tabular foundation / deep baselines (guarded in the runners):
+# pytorch-tabnet>=4.1
+# tabpfn>=2.0
+# tabfm            # google-research/tabfm (pretrained weights; prefetch on a login node)

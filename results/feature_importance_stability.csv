@@ -1,0 +1,39 @@
+feature,label,instrument,selection_freq,direction
+q_les_q_raw,Quality of life,Q-LES-Q,0.612,responder
+intrut,Intrusive,ASR,0.507,non-responder
+taskmon_t,Task-monitor,BRIEF-A,0.448,responder
+thougt,Thought problems,ASR,0.392,non-responder
+age,Age,Demographic,0.375,responder
+adhd_rs_inatt,ADHD-RS inattention,ADHD-RS,0.352,responder
+delnqt,Rule-breaking,ASR,0.274,non-responder
+cog_t,Social cognition,SRS-2,0.272,responder
+comm_t,Social communication,SRS-2,0.251,responder
+aware_t,Social awareness,SRS-2,0.23,non-responder
+intert,Internalizing,ASR,0.203,non-responder
+extert,Externalizing,ASR,0.172,non-responder
+withdt,Withdrawn,ASR,0.168,non-responder
+somat,Somatic complaints,ASR,0.157,non-responder
+shift_t,Shift,BRIEF-A,0.15,responder
+attent,Attention problems,ASR,0.147,responder
+orgmat_t,Organization of materials,BRIEF-A,0.136,responder
+workmem_t,Working memory,BRIEF-A,0.124,responder
+gender,Sex (female),Demographic,0.102,non-responder
+gec_t,Global Executive Composite,BRIEF-A,0.093,responder
+anxdept,Anxious/depressed,ASR,0.091,non-responder
+selfmon_t,Self-monitor,BRIEF-A,0.086,responder
+emocont_t,Emotional control,BRIEF-A,0.079,responder
+inhibit_t,Inhibit,BRIEF-A,0.079,responder
+planorg_t,Plan/organize,BRIEF-A,0.075,responder
+bri_t,Behavioral Regulation Index,BRIEF-A,0.07,responder
+adhd_rs_total,ADHD-RS total,ADHD-RS,0.047,responder
+aggret,Aggressive behavior,ASR,0.036,responder
+mwq_total,Mind-wandering,MWQ,0.031,responder
+totalt,Total problems,ASR,0.026,non-responder
+motiv_t,Social motivation,SRS-2,0.026,non-responder
+rrb_t,Restricted/repetitive,SRS-2,0.02,non-responder
+mi_t,Metacognition Index,BRIEF-A,0.016,responder
+desr_total,Emotional dysregulation,DERS,0.015,non-responder
+adhd_rs_hyper,ADHD-RS hyperactivity,ADHD-RS,0.013,responder
+initiate_t,Initiate,BRIEF-A,0.01,responder
+srs_total_t,SRS-2 total,SRS-2,0.004,responder
+asr_aaa,AAA composite,ASR,0.001,non-responder

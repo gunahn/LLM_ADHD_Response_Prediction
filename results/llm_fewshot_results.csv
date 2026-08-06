@@ -1,0 +1,13 @@
+prompt,shot,auc_mean,auc_std,bacc_mean,n_seeds
+simple,0,0.6646,0.1766,0.5,15
+simple,2,0.6646,0.1845,0.575,15
+simple,4,0.6458,0.1668,0.6083,15
+simple,8,0.6854,0.1558,0.5583,15
+simple,16,0.6667,0.1612,0.5667,15
+simple,24,0.6646,0.2014,0.5083,15
+clinician_guided,0,0.6583,0.1298,0.6583,15
+clinician_guided,2,0.6583,0.1901,0.575,15
+clinician_guided,4,0.6583,0.1663,0.5833,15
+clinician_guided,8,0.6917,0.1707,0.55,15
+clinician_guided,16,0.6479,0.1824,0.5583,15
+clinician_guided,24,0.6917,0.1992,0.5417,15

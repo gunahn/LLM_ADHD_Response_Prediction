@@ -8,7 +8,7 @@ and that file are the authoritative prompt reference, together with
 `src/serialize.py` (the patient-record serialization).
 
 **Model.** All LLM results use **Claude Opus 4** (Anthropic; API model
-`claude-opus-4`). `claude-opus-4` is a rolling alias; the exact dated snapshot is
+`claude-opus-4-8`). Model aliases roll over time; the exact dated snapshot served is
 returned in each API response's `model` field. Accessed 2026.
 
 **Two prompt designs are compared** (manuscript Figure 1b): a **Simple** prompt

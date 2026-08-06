@@ -45,7 +45,7 @@ python src/adhd_fewshot_curve.py --data "data/...xls" --repeats 100 --loocv_repe
 
 # 3. few-shot LLM sweep (needs ANTHROPIC_API_KEY)
 export ANTHROPIC_API_KEY=sk-...
-python src/llm_responder.py --data "data/...xls" --model claude-opus-4
+python src/llm_responder.py --data "data/...xls" --model claude-opus-4-8
 
 # 4. main learning-curve figure (Figure 1)
 python src/04_analyze_and_figure.py
@@ -61,9 +61,9 @@ python src/supplementary/S_feature_importance.py --data "data/...xls"
 | TabFM (tabular foundation model, in-context) | `google-research/tabfm` |
 | TabPFN (tabular foundation model, in-context) | `tabpfn` (Hollmann et al.) |
 | Supervised baselines | Logistic Regression, Random Forest, XGBoost, TabNet |
-| Few-shot LLM predictor | Claude Opus 4 (`claude-opus-4`, Anthropic; accessed 2026) |
+| Few-shot LLM predictor | Claude Opus 4 (`claude-opus-4-8`, Anthropic; accessed 2026) |
 
-`claude-opus-4` is a rolling alias; the exact dated snapshot is returned in each
+The model string recorded for the run is `claude-opus-4-8`; aliases roll over time and the exact dated snapshot served is returned in each
 API response's `model` field.
 
 ## Headline results

@@ -6,7 +6,11 @@ adult ADHD, using Claude (Anthropic).
 
 This reproduces the exact experiment behind results/llm_fewshot_results.json:
 
-  * Model:   Claude Opus 4  (API model `claude-opus-4`; a rolling alias).
+  * Model:   Claude Opus 4. The exact model string recorded for the run that
+             produced results/llm_fewshot_results.json is `claude-opus-4-8`
+             (this is the default below, for faithful reproduction). Model
+             aliases roll over time; the dated snapshot actually served is
+             returned in each API response's `model` field.
   * Prompts: two designs compared head-to-head -- "simple" (concise task
              description) and "clinician_guided" (structured clinical briefing).
              Both are reproduced verbatim in APPENDIX_prompt_and_exemplars.md.
@@ -26,7 +30,7 @@ This reproduces the exact experiment behind results/llm_fewshot_results.json:
 Usage:
   export ANTHROPIC_API_KEY=sk-...
   python src/llm_responder.py --data "data/Prediction Data for GA (02.13.26).xls" \
-      --model claude-opus-4 --out results
+      --model claude-opus-4-8 --out results
 
 Requires: anthropic, pandas, numpy, scikit-learn, and src/serialize.py.
 """
@@ -165,8 +169,9 @@ def run(df, y, client, model, out, workers=8):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--data", required=True)
-    ap.add_argument("--model", default="claude-opus-4",
-                    help="Anthropic model id (rolling alias; dated snapshot returned in each response)")
+    ap.add_argument("--model", default="claude-opus-4-8",
+                    help="Anthropic model id; default reproduces the recorded run "
+                         "(the dated snapshot served is returned in each response's model field)")
     ap.add_argument("--out", default="results")
     ap.add_argument("--workers", type=int, default=8)
     args = ap.parse_args()
